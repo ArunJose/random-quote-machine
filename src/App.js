@@ -14,9 +14,6 @@ export default function App() {
         setRandomQuote(
           data.quotes[Math.floor(Math.random() * data.quotes.length)]
         );
-        console.log(
-          data.quotes[Math.floor(Math.random() * data.quotes.length)]
-        );
       });
   }, []);
 
