@@ -1,4 +1,23 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3em;
+  background-color: lightblue;
+  height: 5em;
+  border-radius: 3em;
+}
+
+#quote-box > * {
+  padding: 0.2em;
 }
